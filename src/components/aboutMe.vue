@@ -6,7 +6,7 @@
 				<h2 class="title-font default-title-style">About Me</h2>
 				<div class="row mb-2 mt-4">
 					<div class="col-lg-6 col-md-12 col-sm-12">
-						<p>Motivated web developer looking for a role as full-stack web developer. Passionate about building first-class web applications. Developing an HR software for enterprise at <a href="https://better.hr/" class="company-link">BetterHR</a>. Relevant skills include AWS, Database, Debugging, and more.</p>
+						<p>Motivated web developer looking for a role as full-stack web developer. Passionate about building first-class web applications. Developing an HR software for enterprise at <a href="https://better.hr/" target="_blank" class="company-link">BetterHR</a>. Relevant skills include AWS, Database, Debugging, and more.</p>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<ul class="about-list pl-0">
@@ -38,7 +38,7 @@
 						<div class="about-card">
 							<img src="@/assets/tablet-and-laptop.svg" class="my-2">
 							<h4 class="subtitle-inner-font mt-1">Web <span class="subtitle-style">Frontend</span></h4>
-							<p>Frontend developer with 2+ years experiences of industry building websites. I take the designs created by web designers and use a mix of HTML, CSS, and JavaScript to code those website designs. I specialize in Css/Scss/Sass, Vuejs(Nuxtjs) and React.</p>
+							<p>Frontend developer with 2+ years experiences of industry building websites. I take the designs created by web designers and use a mix of HTML, CSS, and JavaScript to code those website designs. I specialize in Html, Css/Scss/Sass, Vuejs(Nuxtjs) and React.</p>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12">

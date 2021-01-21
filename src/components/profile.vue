@@ -1,9 +1,9 @@
 <template>
 	<div class="">
 		<div class="hero-text">
-			<h2 class="text-white"><strong class="" style="font-size: 14px">Hello guys. My name is </strong>
+			<h2 class="text-white"><strong class="text">Hello guys. My name is </strong>
 				<!-- <transition name="animation"> -->
-					<span class="primary-color big-profile-name-style" style="font-size: 50px;">Ye Yint Aung.</span>
+					<span class="primary-color big-profile-name-style name">Ye Yint Aung.</span>
 				<!-- </transition> -->
 			</h2>
 			<div class="subtitle">
@@ -23,7 +23,13 @@
 	}
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+.name {
+  font-size: 50px
+}
+.text {
+  font-size: 14px
+}
 .animation-enter-active {
 	animation: text-flicker-in-glow 0.9s both;
 }
@@ -82,25 +88,4 @@
     opacity: 1;
   }
 }
-</style>
-
-<style lang="sass">
-.page-content-item
-	background-color: #222
-	border-radius: 30px
-	display: inline-block
-	width: 100%
-	height: 100%
-	float: right
-	position: relative
-.hero-text
-	text-align: center
-	margin: auto
-	width: 100%
-	position: absolute
-	top: 45%
-	transform: translateY(-50%)
-	.subtitle
-		color: #888
-	
 </style>

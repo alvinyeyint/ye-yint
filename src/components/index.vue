@@ -57,20 +57,21 @@
 	import Profile from './profile'
 	import AboutMe from './aboutMe'
 	import Resume from './resume'
+	import Contact from './contact'
 	import quickMenu from 'vue-quick-menu'
 
 	export default {
-		components: { Profile, AboutMe, Resume, quickMenu },
+		components: { Profile, AboutMe, Resume, Contact, quickMenu },
 		data () {
 			return {
 				currentTabComponent: 'Profile',
 				windowHeight: window.innerHeight,
 				windowWidth: window.innerWidth,
 				menuPosition: 'top-right',
-				icons: ['fa fa-home', 'fa fa-user-o', 'fa fa-graduation-cap', 'fa fa-briefcase'],
-				menuLists: ['Home', 'About', 'Resume', 'Job'],
+				icons: ['fa fa-home', 'fa fa-user-o', 'fa fa-graduation-cap', 'fa fa-envelope-o'],
+				menuLists: ['Home', 'About', 'Resume', 'Contact'],
 				menuCount: 4,
-				components: ['Profile', 'AboutMe', 'Resume', 'Job']
+				components: ['Profile', 'AboutMe', 'Resume', 'Contact']
 			}
 		},
 		methods: {
@@ -178,69 +179,6 @@
 
 <style lang="sass">
 .main-bg
-	height: 100vh
-	display: flex
 	background: url('../assets/main_bg.png')
-	background-color: #fca072
-	background-size: cover
-	background-repeat: repeat
-	background-position: var(--x) var(--y)
-	.page-wrapper
-		height: 85vh
-		width: calc(100% - 300px)
-		background: linear-gradient(#444444, #444444)
-		border-radius: 32px
-		margin: auto
-		.nav-menu.quick-menu
-			cursor: pointer
-			&:hover
-				.menu .core-menu 
-					.bar
-						background: #fca072
-						&:before
-							background: #fca072
-						&:after
-							background: #fca072
-		.page-content-card
-			height: 100%
-			display: flex
-			.header-content
-				display: inline-block
-				float: left
-				width: 40%
-				height: 100%
-				text-align: center
-				overflow: auto
-				.social-link
-					text-align: center
-					margin: 3em 0
-					a
-						text-decoration: none
-						display: inline-block
-						width: 15%
-						color: #f1f1f1
-						&:hover
-							color: #fca072
-						i
-							font-size: 20px
-				.header-title
-					color: #f1f1f1
-				.avatar
-					padding: 65px 30px 10px
-					img
-						height: auto
-						max-height: 150px
-						width: auto
-						max-width: 150px
-						border-radius: 50%
-			.dynamic-component
-				background-color: #222
-				border-radius: 30px
-				display: inline-block
-				width: 100%
-				height: 100%
-				float: right
-				position: relative
-				overflow-y: auto
 			
 </style>
