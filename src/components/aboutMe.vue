@@ -17,13 +17,13 @@
 								<span>Residence</span>Yangon
 							</li>
 							<li class="list-item">
-								<span>Address</span>No-534 Kan Taw Street
+								<span>Address</span><label style="background-color: #f1f1f1">No-534 Kan Taw Street</label>
 							</li>
 							<li class="list-item">
-								<span>E-mail</span>yeyintaung9998@gmail.com
+								<span>E-mail</span><label style="background-color: #f1f1f1">yeyintaung9998@gmail.com</label>
 							</li>
 							<li class="list-item">
-								<span>Phone</span>+95 9254129300
+								<span>Phone</span><label style="background-color: #f1f1f1">+95 9254129300</label>
 							</li>
 						</ul>
 					</div>

@@ -9,7 +9,9 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import '@/assets/style/index.sass'
 import '@/assets/style/responsive.sass'
+import VueChatScroll from 'vue-chat-scroll'
 
+Vue.use(VueChatScroll)
 Vue.use(BootstrapVue)
 
 Vue.component('k-progress', KProgress)

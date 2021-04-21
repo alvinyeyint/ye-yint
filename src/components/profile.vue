@@ -1,6 +1,9 @@
 <template>
 	<div class="">
 		<div class="hero-text">
+      <div class="avatar d-none mb-5">
+        <img src="@/assets/profile.jpg">
+      </div>
 			<h2 class="text-white"><strong class="text">Hello guys. My name is </strong>
 				<!-- <transition name="animation"> -->
 					<span class="primary-color big-profile-name-style name">Ye Yint Aung.</span>

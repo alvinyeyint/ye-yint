@@ -6,28 +6,33 @@
 				<!-- left side header content -->
 				<div class="header-content">
 					<div class="avatar">
-						<img src="//lmpixels.com/wp/breezycv-wp-lin/demo4-dark/wp-content/uploads/sites/10/2020/06/main_photo.jpg">
+						<img src="@/assets/profile.jpg">
 					</div>
 					<div class="header-title">
 						<h3 class="mt-0">Ye Yint Aung</h3>
 						<p>Web Developer</p>
 					</div>
 					<div class="social-link">
-						<a href="https://www.linkedin.com/in/yeyintaung999" target="_blank">
+						<!-- https://www.linkedin.com/in/yeyintaung999 -->
+						<a href="https://www.linkedin.com" target="_blank">
 							<i class="fa fa-linkedin" aria-hidden="true"></i>
 						</a>
-						<a href="https://www.facebook.com/ye.yint.99" target="_blank">
+						<!-- https://www.facebook.com/ye.yint.99 -->
+						<a href="https://www.facebook.com" target="_blank">
 							<i class="fa fa-facebook" aria-hidden="true"></i>
 						</a>
-						<a href="https://www.instagram.com/yeyint_99/" target="_blank">
+						<!-- https://www.instagram.com/yeyint_99/ -->
+						<a href="https://www.instagram.com/" target="_blank">
 							<i class="fa fa-instagram" aria-hidden="true"></i>
 						</a>
+					</div>
+					<div class="download-cv">
+						<button>Download CV</button>
 					</div>
 					<div class="text-center">
 						<span class="text-white">© 2021 All rights reserved.</span>
 					</div>
 				</div>
-
 
 				<div class="dynamic-component">
 					<!-- right side page content -->
