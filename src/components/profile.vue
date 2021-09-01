@@ -4,13 +4,19 @@
       <div class="avatar d-none mb-5">
         <img src="@/assets/profile.jpg">
       </div>
-			<h2 class="text-white"><strong class="text">Hello guys. My name is </strong>
+			<h2 class="text-white"><span class="text">Hi, I'm </span>
 				<!-- <transition name="animation"> -->
 					<span class="primary-color big-profile-name-style name">Ye Yint Aung.</span>
 				<!-- </transition> -->
 			</h2>
 			<div class="subtitle">
-				<p class="text-white"><strong style="font-size: 14px">I am a </strong><span class="primary-color">Web Developer</span>.</p>
+				<p class="text-white">
+					<span class="text">I create </span>
+					<span class="primary-color">beautiful</span>
+					<span class="text"> & </span>
+					<span class="primary-color">functional</span>
+					<span class="text"> websites.</span>
+				</p>
 			</div>
 		</div>
 	</div>
@@ -31,7 +37,7 @@
   font-size: 50px
 }
 .text {
-  font-size: 14px
+  font-size: 18px
 }
 .animation-enter-active {
 	animation: text-flicker-in-glow 0.9s both;

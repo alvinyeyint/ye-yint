@@ -14,22 +14,22 @@
 					</div>
 					<div class="social-link">
 						<!-- https://www.linkedin.com/in/yeyintaung999 -->
-						<a href="https://www.linkedin.com" target="_blank">
+						<a href="https://www.linkedin.com/in/yeyintaung999" target="_blank">
 							<i class="fa fa-linkedin" aria-hidden="true"></i>
 						</a>
 						<!-- https://www.facebook.com/ye.yint.99 -->
-						<a href="https://www.facebook.com" target="_blank">
+						<a href="https://www.facebook.com/ye.yint.99" target="_blank">
 							<i class="fa fa-facebook" aria-hidden="true"></i>
 						</a>
 						<!-- https://www.instagram.com/yeyint_99/ -->
-						<a href="https://www.instagram.com/" target="_blank">
+						<a href="https://www.instagram.com/yeyint_99" target="_blank">
 							<i class="fa fa-instagram" aria-hidden="true"></i>
 						</a>
 					</div>
 					<div class="download-cv">
-						<button>Download CV</button>
+						<button @click="downloadCV">Download CV</button>
 					</div>
-					<div class="text-center">
+					<div class="text-center mb-3">
 						<span class="text-white">© 2021 All rights reserved.</span>
 					</div>
 				</div>
@@ -59,11 +59,32 @@
 </template>
 
 <script>
+	// Animation Button
+	var animateButton = function(e) {
+
+		e.preventDefault;
+		//reset animation
+		e.target.classList.remove('animate');
+		
+		e.target.classList.add('animate');
+		setTimeout(function(){
+			e.target.classList.remove('animate');
+		},700);
+	};
+
+	var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+	for (var i = 0; i < bubblyButtons.length; i++) {
+		bubblyButtons[i].addEventListener('click', animateButton, false);
+	}
+
+
 	import Profile from './profile'
 	import AboutMe from './aboutMe'
 	import Resume from './resume'
 	import Contact from './contact'
 	import quickMenu from 'vue-quick-menu'
+	let download = require('downloadjs')
 
 	export default {
 		components: { Profile, AboutMe, Resume, Contact, quickMenu },
@@ -76,7 +97,8 @@
 				icons: ['fa fa-home', 'fa fa-user-o', 'fa fa-graduation-cap', 'fa fa-envelope-o'],
 				menuLists: ['Home', 'About', 'Resume', 'Contact'],
 				menuCount: 4,
-				components: ['Profile', 'AboutMe', 'Resume', 'Contact']
+				components: ['Profile', 'AboutMe', 'Resume', 'Contact'],
+				cvFile: '/cv.docx'
 			}
 		},
 		methods: {
@@ -86,6 +108,9 @@
 			},
 			menuClick (key) {
 				this.currentTabComponent = this.components[key]
+			},
+			downloadCV() {
+				download(this.cvFile)
 			}
 		},
 		beforeDestroy() { 

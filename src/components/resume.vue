@@ -128,7 +128,7 @@
 				],
 				backendSkills: [
 					{ name: 'PHP', percent: 75},
-					{ name: 'Laravel', percent: 90},
+					{ name: 'Laravel', percent: 85},
 					{ name: 'MySQL', percent: 90},
 				],
 				knowledges: ['Problem Solving', 'Communication', 'Flexibility', 'AWS']

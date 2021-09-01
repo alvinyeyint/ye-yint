@@ -11,6 +11,7 @@
     "@growthbunker/vuetimeline": "^0.1.17",
     "bootstrap": "^5.0.0-beta1",
     "bootstrap-vue": "^2.21.2",
+    "downloadjs": "^1.4.7",
     "k-progress": "^1.5.0",
     "vue": "^2.6.12",
     "vue-chat-scroll": "^1.4.0",
