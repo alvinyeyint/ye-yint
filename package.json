@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@emailjs/browser": "3.3.0",
     "@growthbunker/vuetimeline": "^0.1.17",
     "bootstrap": "^5.0.0-beta1",
     "bootstrap-vue": "^2.21.2",
