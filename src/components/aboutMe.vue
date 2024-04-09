@@ -21,10 +21,12 @@
           <div class="col-12">
             <ul class="about-list pl-0">
               <li class="list-item"><span>Age</span>26</li>
-              <li class="list-item"><span>Residence</span>Bangkok, Thailand</li>
               <li class="list-item">
                 <span>Address</span
-                ><label>No-534 Kan Taw Street, Thingangyan</label>
+                ><label
+                  >781 On Nut 10 Alley, Suan Luang, Bangkok 10250,
+                  Thailand</label
+                >
               </li>
               <li class="list-item">
                 <span>E-mail</span
@@ -53,14 +55,21 @@
                 Web <span class="subtitle-style">Frontend</span>
               </h4>
               <p>
-                Frontend developer with 4+ years experiences of industry
-                building websites. I take the designs created by web designers
-                and use a mix of HTML, CSS, and JavaScript to code those website
-                designs. I specialize in
-                <span class="primary-color">Html</span>,
-                <span class="primary-color">Css/Scss/Sass</span>,
+                As an experienced frontend developer with over 5 years in the
+                industry, I specialize in transforming design concepts into
+                fully functional and visually stunning websites. My expertise
+                lies in seamlessly integrating the creative visions of web
+                designers into responsive and user-friendly interfaces using a
+                combination of <span class="primary-color">Html</span>,
+                <span class="primary-color">Css</span> and
+                <span class="primary-color">Javascript</span>. With a keen eye
+                for detail and a deep understanding of frontend technologies, I
+                excel in crafting elegant and efficient code. Specializing in
+                HTML, CSS (including SCSS and Sass), as well as
                 <span class="primary-color">Vuejs</span> and
-                <span class="primary-color">React</span>.
+                <span class="primary-color">React</span>, I am dedicated to
+                delivering high-quality solutions that elevate the user
+                experience and exceed client expectations.
               </p>
             </div>
           </div>
@@ -71,13 +80,21 @@
                 Web <span class="subtitle-style">Backend</span>
               </h4>
               <p>
-                Backend developer with 4+ years experiences of industry web
-                applications. Developed HR web-based software at BetterHR that
-                was using 5000+ employees. I have also experience with working
-                with <span class="primary-color">Php(Laravel)</span> ,
-                <span class="primary-color">Nodejs(Express)</span>,
+                With over 4 years of industry experience as a backend developer,
+                I specialize in creating robust web applications that drive
+                efficiency and productivity. Notably, I spearheaded the
+                development of HR web-based software at BetterHR, catering to
+                over 5000 employees. My expertise encompasses a wide range of
+                technologies, including
+                <span class="primary-color">PHP with Laravel</span>,
+                <span class="primary-color">Nodejs with Express</span>,
                 <span class="primary-color">MySQL</span>,
-                <span class="primary-color">AWS Serverless</span> and more.
+                <span class="primary-color">AWS Serverless</span> solution. I
+                excel in architect scalable and secure backend systems that
+                optimize performance and streamline operations. Committed to
+                staying abreast of emerging technologies, I leverage my diverse
+                skill set to deliver innovative solutions that meet and exceed
+                client expectations.
               </p>
             </div>
           </div>

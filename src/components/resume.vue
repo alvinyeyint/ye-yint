@@ -5,7 +5,7 @@
         <h2 class="title-font default-title-style">Resume</h2>
 
         <div class="row mt-5">
-          <div class="col-8 education-timeline">
+          <div class="col-lg-8 col-md-12 education-timeline">
             <h3 class="subtitle-font default-title-style mb-4">Educations</h3>
             <!-- Latest update -->
             <vue-timeline-update
@@ -86,7 +86,7 @@
               is-last
             />
           </div>
-          <div class="col-4">
+          <div class="col-lg-4 col-md-12">
             <h3 class="subtitle-font default-title-style mb-4">
               Frontend Skills
             </h3>
@@ -166,6 +166,7 @@ export default {
         { name: "React", percent: 70 },
       ],
       backendSkills: [
+        { name: "Nodejs", percent: 60 },
         { name: "PHP", percent: 75 },
         { name: "Laravel", percent: 85 },
         { name: "MySQL", percent: 90 },
